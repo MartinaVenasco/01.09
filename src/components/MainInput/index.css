@@ -1,0 +1,38 @@
+.MainInput {
+  height: 40px;
+  display: flex;
+  position: absolute;
+  top: 980px;
+  left: calc(50% - 180px);
+  gap: 30px;
+  transition: all 0.35s;
+}
+
+.MainInput input {
+  padding-left: 14px;
+  width: 240px;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  border-width: 0px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #999999fc;
+  border-radius: 25px;
+  box-shadow: 4px 0px 8px rgba(255, 255, 255, 0.43);
+ 
+}
+
+.MainInput button {
+  width: 40px;
+  border: 0;
+  font-weight: bold;
+  background-color: rgba(193, 193, 193, 0.514);
+  border-left: 1px solid lightgrey;
+  cursor: pointer;
+ transition: all 0.35s;
+  border-radius: 100%;
+}
+.MainInput button:hover {transform: scale(1.1);
+  background-color: red;
+color:white;}
